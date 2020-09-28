@@ -1,0 +1,51 @@
+@import './constants.scss';
+
+#cards {
+  display: flex;
+  text-align: center;
+  gap: 3rem;
+  background-color: $white;
+}
+
+.card__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  row-gap: 2rem;
+  width: 100%;
+}
+
+.concept__card {
+  background-color: $dark-grey;
+  border: .35rem solid $blue;
+  border-radius: 1.5rem;
+  color: $white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 3rem;
+  width: 80%;
+}
+
+.card__content {
+  padding: 3rem;
+  line-height: 3rem;
+  letter-spacing: .4rem;
+  font-size: 1.3rem;
+}
+
+.card__title {
+  color: $blue;
+}
+
+.card__label {
+  font-size: 1.8rem;
+}
+
+.related__concepts-item {
+  list-style: none;
+  text-align: center;
+  margin: 0 auto;
+  margin-right: 2rem;
+  line-height: 3rem;
+  }
